@@ -1,2 +1,2 @@
 # wwera
-Get era weather data
+Get era weather data from Climate Data Store
