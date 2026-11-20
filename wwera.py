@@ -3,10 +3,11 @@ Python script world era land, average / day
 261116 : ver. 1.0
 - data source : https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=download
 - demo, grid and pythonscript : http://212.227.167.148/
-- spatial grid : 1e3 points on the equator = 0.25 tau, 1e3/2 points on 0.25/3 tau, 1 point on 0 tau.
-- 2 tau points converted to 1 point hilbertcurve z value
-- nominatim : https://nominatim.openstreetmap.org/ui/reverse.html
-- elevation in decimetres, the mean to 1e4 points width , source : https://portal.opentopography.org/raster?opentopoID=OTSDEM.082025.4326.1
+- spatial grid 1e3.parquet, 1e3 points on the equator (= 0.25 tau), 1e3/2 points on 0.25/3 tau, 1 point on 0 tau.
+- 2 tau points converted to 1 point hilbertcurve z value, p=128 n=2
+- nominatim 1e3nom.parquet, source : https://nominatim.openstreetmap.org/ui/reverse.html
+- 20261104_1e4_c.tif, elevation in decimetres, the mean to 1e4 points width , source : https://portal.opentopography.org/raster?opentopoID=OTSDEM.082025.4326.1
+- GEDTM30 : https://s3.opengeohub.org/global/dtm/v1.2/gedtm_rf_m_30m_s_20060101_20151231_go_epsg.4326.3855_v1.2.tif
 """
 
 import os, sys
